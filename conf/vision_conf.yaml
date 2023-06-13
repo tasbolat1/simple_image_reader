@@ -1,0 +1,15 @@
+crop:
+  x1: 160
+  x2: 640
+  y1: 60
+  y2: 390
+
+rgb:
+  contour_min_width: 10
+  contour_min_height: 10
+  area_weight: 0.35
+  distance_weight: 0.65
+  fail_score: 55
+
+depth:
+  cleaner_window_size: 1 # make it 5
